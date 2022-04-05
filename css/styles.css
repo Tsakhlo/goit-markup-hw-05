@@ -12,7 +12,6 @@
     --primery-background-color: #2F303A;
     --icons-gray: rgba(175, 177, 184, 1);
     --icons-footer: rgba(255, 255, 255, 0.1);
-
     /* Анимация */
 
     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -292,12 +291,6 @@ margin-right: auto;
   
   }
 
-
-
-
-
-
-
 /*  hang section  */
 
 .hang-container{
@@ -348,10 +341,42 @@ padding-top: 0;
 }
 .product-list{
     display: flex;
+    justify-content: space-between;
+}
+
+.product-item{
+    position: relative;
 }
 .product-list .product-item + .product-item{
     margin-left: 30px;
 }
+
+.product-description {  
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+
+  color: var(--primery-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.product-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+
+
+
+
 /*section team*/
 
 .team {
@@ -426,7 +451,7 @@ padding-top: 0;
     justify-content: center;
     width: 100%;
     height: 100%;
-    
+    transition: color var(--animation);
   }
 
   .team-links-item use {
@@ -470,6 +495,7 @@ padding-top: 0;
     border: 1px solid var(--icons-gray);
     border-radius: 4px;
     fill: var(--primery-text-color);
+    transition: color var(--animation);
   }
 
   .clients-icon-list .item{
@@ -664,7 +690,7 @@ transition: color var(--animation);
     width: 100%;
     height: 100%;
     
-   
+    transition: color var(--animation);
   }
 
 
