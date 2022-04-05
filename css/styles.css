@@ -458,6 +458,7 @@ padding-top: 0;
 
   .team-links-item svg {
     fill: var(--icons-gray);
+    transition: fill var(--animation);
     
   }
   .team-link:hover,
