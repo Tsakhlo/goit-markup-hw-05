@@ -443,6 +443,7 @@ padding-top: 0;
     width: 44px;
     height: 44px;
     }
+
 .team-link {
     border-radius: 50%;
     display: flex;
@@ -455,7 +456,7 @@ padding-top: 0;
   
   }
 
-  .team-links-item use {
+  .team-links-item svg {
     fill: var(--icons-gray);
     
   }
@@ -464,8 +465,8 @@ padding-top: 0;
     background-color: var(--accent-color);
     
   }
-  .team-links-item:hover use,
-  .team-links-item:focus use {
+  .team-links-item:hover svg,
+  .team-links-item:focus svg {
     fill: var(--primery-white-color);
   }
  
