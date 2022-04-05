@@ -132,8 +132,8 @@ margin-right: auto;
 }
 .nav-list .is-active::before{
     content: "";
-    position: relative;
-    bottom: calc(0% - 25px);
+    position: absolute;
+    bottom: calc(0% - 33px);
     left: 0px;
   
   
