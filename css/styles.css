@@ -362,7 +362,6 @@ padding-top: 0;
   height: 70px;
   bottom: 0;
 
-  color: var(--primery-white-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -371,6 +370,7 @@ padding-top: 0;
     font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
+    color: var(--primery-white-color);
 }
 
 
