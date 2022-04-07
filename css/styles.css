@@ -247,6 +247,8 @@ margin-right: auto;
     background: rgba(0, 0, 0, 0.2);
   
     transition: var(--animation);
+    z-index: 500;
+
   }
   
   .backdrop.is-hidden {
@@ -497,7 +499,7 @@ padding-top: 0;
     height: 100%;
     border: 1px solid var(--icons-gray);
     border-radius: 4px;
-    fill: var(--primery-text-color);
+    fill: var(--icons-gray);
     transition: fill,border var(--animation);
   }
 
